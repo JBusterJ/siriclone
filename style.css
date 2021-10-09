@@ -1,0 +1,73 @@
+#start-btn {
+    width: 40%;
+}
+#camera {
+    width: 360px;
+    height: 250px;
+    border: 1px solid grey;
+}
+#logo_img {
+    width: 150px;
+    border-radius: 100px;
+}
+#textbox {
+    width: 300px;
+    height: 100px;
+    resize: none;
+    color: white;
+    background-color: rgb(19, 22, 26);
+}
+.container {
+    background-color: rgb(19, 22, 26);
+    border-radius: 10px;
+    width: 50%;
+    color: rgb(255, 255, 255);
+}
+.image {
+    width: 300px;
+}
+
+.siriButton {
+    background-image: url("https://i.pinimg.com/originals/c1/14/12/c114123eb48fc0712b2482264414d9d7.gif");
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    border: none;
+    transition: 500ms;
+}
+
+.siriButton:hover {
+    filter: brightness(0.8);
+    width: 61px;
+    height: 61px;
+}
+ 
+input[type="text"]{
+    background-color: rgb(57, 73, 105);
+    color: white;
+    border: none;
+    outline: none;
+    height: 25px;
+}
+
+input[type="text"]::-webkit-input-placeholder{
+    color: rgb(204, 202, 202);
+    padding: 5px;
+}
+
+button {
+    background-color: rgb(57, 73, 105);
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 75px;
+    border-radius: 5px;
+    transition: 200ms;
+}
+
+button:hover {
+    background-color: rgb(50, 64, 92);
+}
